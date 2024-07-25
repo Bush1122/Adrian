@@ -1,0 +1,43 @@
+.feature-item {
+    position: relative;
+}
+
+.feature-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.feature-item:hover .add-to-cart-btn {
+    opacity: 3;
+}
+
+
+
+.btn-style {
+    width: 2rem;
+    height: 2rem; 
+    border-radius: 50%;
+    font-size: small;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    opacity: 0.5;
+    margin-left: 1rem;
+    padding: 8px 13px;
+}
+
+.active {
+    opacity: 1;
+}
+
+.button_products{
+    text-decoration: none;
+}
+
+.footer-main-section{
+    background-color:  darkred;
+
+}
